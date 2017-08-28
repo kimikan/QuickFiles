@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:paddingLeft="10dp" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <!-- 
+            <LinearLayout android:orientation="horizontal" android:id="@id/navigation_ignore" android:background="@drawable/navigation_click_selector" android:layout_width="240.0dip" android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/navdrawer_ic_ignore" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/setting_ignore_list" />
+            </LinearLayout>
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/navigation_service" android:background="@drawable/navigation_click_selector" android:layout_width="240.0dip" android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/navdrawer_ic_service" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_service" />
+            </LinearLayout>
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#4cffffff" android:gravity="center_vertical" android:id="@id/navigation_other" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="25.0dip" android:text="@string/navigation_other" />
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="3.0px" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/navigation_uninstall" android:background="@drawable/navigation_click_selector" android:layout_width="240.0dip" android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/navdrawer_ic_uninstall" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/navigation_uninstall" />
+            </LinearLayout>
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/navigation_community" android:background="@drawable/navigation_click_selector" android:layout_width="240.0dip" android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/navdrawer_ic_gplus" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/navigation_community" />
+            </LinearLayout>
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/navigation_help" android:background="@drawable/navigation_click_selector" android:layout_width="240.0dip" android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/navdrawer_ic_help" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_help" />
+            </LinearLayout>
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+             -->
+             
+             <LinearLayout android:orientation="horizontal" android:id="@+id/navigation_apps" 
+                android:background="@drawable/drawer_click_selector" 
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" android:src="@drawable/drawer_apps" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" 
+                    android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                    android:text="@string/nav_myapps" />
+            </LinearLayout>
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/navigation_apks" 
+                android:background="@drawable/drawer_click_selector" 
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" android:src="@drawable/drawer_apks" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" 
+                    android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                    android:text="@string/nav_apks" />
+            </LinearLayout>
+             <TextView android:textSize="15.0sp" android:textStyle="bold"
+                  android:textColor="#4cffffff" android:gravity="center_vertical" 
+                  android:paddingLeft="5.0dip" android:layout_width="fill_parent"
+                  android:layout_height="25.0dip" android:text="@string/nav_files" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/navigation_sdcard" 
+                android:background="@drawable/drawer_click_selector" 
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" android:src="@drawable/drawer_sdcard" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" 
+                    android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                    android:text="@string/nav_sdcard" />
+            </LinearLayout>
+            
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+             <LinearLayout android:orientation="horizontal" android:id="@+id/navigation_picture" 
+                android:background="@drawable/drawer_click_selector" 
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" android:src="@drawable/drawer_picture" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" 
+                    android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+                     android:text="@string/nav_pictures" />
+            </LinearLayout>
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/navigation_music" 
+                android:background="@drawable/drawer_click_selector" 
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" android:src="@drawable/drawer_music" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" 
+                    android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+                     android:text="@string/nav_musics" />
+            </LinearLayout>
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/navigation_video" 
+                android:background="@drawable/drawer_click_selector" 
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" android:src="@drawable/drawer_video" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" 
+                    android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                    android:text="@string/nav_videos" />
+            </LinearLayout>
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/navigation_download" 
+                android:background="@drawable/drawer_click_selector" 
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" android:src="@drawable/drawer_download" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" 
+                    android:gravity="center_vertical" android:paddingLeft="5.0dip" android:layout_width="fill_parent" 
+                    android:layout_height="fill_parent" android:text="@string/nav_downloads" />
+            </LinearLayout>
+            
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/navigation_bookmark" 
+                android:background="@drawable/drawer_click_selector" 
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" android:src="@drawable/drawer_bookmark" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" 
+                    android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                    android:text="@string/nav_bookmarks" />
+            </LinearLayout>
+            
+            <LinearLayout android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/navigation_about" 
+                android:background="@drawable/drawer_click_selector" 
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip">
+                <ImageView android:paddingLeft="23.0dip" android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" android:src="@drawable/drawer_about" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" 
+                    android:gravity="center_vertical" android:paddingLeft="5.0dip" 
+                    android:layout_width="fill_parent" android:layout_height="fill_parent" 
+                    android:text="@string/nav_about" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/navigation_nothing" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

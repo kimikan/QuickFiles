@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" 
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout02" 
+        android:layout_width="fill_parent"  android:layout_height="0.0dip" 
+        android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:layout_weight="1.0">
+        <ListView android:id="@+id/ListViewTasks" android:background="@null" 
+            android:layout_width="fill_parent" android:layout_height="wrap_content" 
+            android:cacheColorHint="@null" android:divider="#40fffffe" 
+            android:dividerHeight="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayoutBottomLine1" 
+            android:background="#40fffffe" android:layout_width="fill_parent" 
+            android:layout_height="1.0dip" />
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/ControllLinearLayout" 
+        android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="18.0dip" android:typeface="serif" 
+            android:textStyle="bold" android:id="@+id/ButtonKillTask" 
+            android:layout_width="0.0dip" android:layout_height="60.0dip" 
+            android:text="kill_selected_tasks" android:singleLine="true" android:layout_weight="1.0" />
+        <CheckBox android:id="@+id/CheckBoxSelectAll" android:paddingRight="4.0dip" 
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <android.support.v4.widget.DrawerLayout
+	    android:id="@+id/drawer_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <!-- As the main content view, the view below consumes the entire
+	         space available using match_parent in both dimensions. -->
+	    
+	    <FrameLayout
+	        android:id="@+id/content_fragment"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" />
+	
+	    <LinearLayout
+	        android:id="@+id/left_drawer"
+	        android:background="#ff1a1c1b"
+	        android:layout_width="250dp"
+	        android:layout_gravity="start"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical" >
+
+	    </LinearLayout>
+	</android.support.v4.widget.DrawerLayout>
+    
+
+</RelativeLayout>

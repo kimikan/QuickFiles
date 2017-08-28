@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:swipe="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent">
+                        
+    <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="fill_parent"  >
+        <GridView
+	        android:id="@+id/file_grid"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:fastScrollEnabled="true"
+          	android:drawSelectorOnTop="false"
+	        android:columnWidth="90dp"
+	        android:gravity="center"
+	        android:horizontalSpacing="10dp"
+	        android:numColumns="auto_fit"
+	        android:stretchMode="columnWidth"
+	        android:verticalSpacing="10dp" 
+	        android:paddingLeft="@dimen/activity_horizontal_margin"
+		    android:paddingRight="@dimen/activity_horizontal_margin"
+		    android:paddingTop="@dimen/activity_vertical_margin"
+	        android:paddingBottom="50dp"/>
+        <ListView
+          android:id="@+id/file_list"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent" 
+          android:layout_weight="1"
+          android:fastScrollEnabled="true"
+          android:drawSelectorOnTop="false"
+          android:paddingLeft="@dimen/activity_horizontal_margin"
+		  android:paddingRight="@dimen/activity_horizontal_margin"
+		  android:paddingTop="@dimen/activity_vertical_margin"
+          android:paddingBottom="50dp"/>
+	    <HorizontalScrollView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:paddingLeft="@dimen/activity_horizontal_margin"
+		  	android:paddingRight="@dimen/activity_horizontal_margin"
+		    android:fadingEdge="horizontal">
+		    <LinearLayout 
+		        android:id="@+id/navigation_pane"
+		        android:layout_width="wrap_content"
+	          	android:layout_height="wrap_content" 
+	          	android:orientation="horizontal"
+	          	android:paddingTop="13dp"
+	          	android:paddingBottom="13dp"/>
+	    </HorizontalScrollView>
+	    <LinearLayout android:orientation="vertical" 
+	        android:layout_alignParentBottom="true"
+	        android:id="@+id/edit_pane" 
+	        android:background="@drawable/filemgr_copy_pressed"
+	        android:layout_width="fill_parent"
+	        android:visibility="gone" 
+	        android:layout_height="45dip">
+            <LinearLayout android:orientation="horizontal" 
+                android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageButton android:layout_gravity="center" 
+                    android:id="@+id/control_left" 
+                    android:background="@null" 
+                    android:layout_width="fill_parent" android:layout_height="wrap_content" 
+                    android:src="@drawable/filemgr_left_selector" android:layout_weight="3.0" />
+                <Button android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" 
+                    android:layout_gravity="center" 
+                    android:id="@+id/control_center" 
+                    android:background="@drawable/filemgr_center_selector"
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginBottom="1.0dip"
+                    android:minWidth="166.0dip" 
+                    android:text="@string/filemgr_dialog_wififtp" 
+                    android:singleLine="true" android:layout_weight="2.0" />
+                <ImageButton android:layout_gravity="center" 
+                    android:id="@+id/control_right" 
+                    android:background="@null" 
+                    android:layout_width="fill_parent" android:layout_height="wrap_content" 
+                    android:src="@drawable/filemgr_delete_selector" android:layout_weight="3.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout >
+    
+</FrameLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">快速文件管理器</string>
+    <string name="action_settings">设置</string>
+	<string name="action_about">关于</string>
+	<string name="action_about_content">C版权所有  2014, FunnyDog.Inc \r\n\n设计准则 性能， 简洁，功能足够\r\n\n点击确定按钮在Google Market支持我们， 谢谢</string>
+    <string name="action_switch_viewmode">列表/网格</string>
+    <string name="action_exit_tip">再按一次退出</string>
+    
+    <!-- Setting -->
+    <string name="setting_title">设置</string>
+    <string name="setting_general">常规</string>
+    <string name="setting_view_mode">列表/网格</string>
+    <string name="setting_view_mode_list">列表视图</string>
+    <string name="setting_view_mode_grid">网格视图</string>
+    <string name="setting_files">文件</string>
+    <string name="setting_show_hidefiles">显示隐藏文件</string>
+    <string name="setting_hide">不显示</string>
+    <string name="setting_show">显示所有文件</string>
+    <string name="setting_username">用户名:</string>
+    <string name="setting_password">密码:</string>
+    <string name="setting_port">端口:</string>
+    
+    <!-- AppMgr -->
+    <string name="appmgr_title">所有应用</string>
+    <string name="appmgr_newgroup_input_name">名称:</string>
+    <string name="appmgr_newgroup_input_description">描述:</string>
+    <string name="appmgr_modify_group_title">修改组</string>
+    <string name="appmgr_new_group_title">新建组</string>
+    <string name="appmgr_modify_group_failed">目标组不存在， 请刷新!</string>
+    <string name="appmgr_new_group_failed">组创建失败!</string>
+    <string name="appmgr_no_group_found">还没有组被创建!</string>
+    <string name="appmgr_choose_folder">所有组</string>
+    <string name="appmgr_join_group_failed">加入组失败</string>
+    <string name="appmgr_extractapks_success">Apk备份成功，清单备份目录下进行操作!</string>
+    <string name="appmgr_extractapks_failed">失败, 目标应用禁止了Apk文件的备份</string>
+    <string name="appmgr_leavegroup_success">离开组成功!</string>
+    <string name="appmgr_leavegroup_failed">离开组失败， 如果刷新无用， 请清除程序缓存后再试</string>
+    <string name="appmgr_run_app">此程序不包含一个可启动项， 例如 服务</string>
+    <string name="appmgr_del_groups">你确定要删除这 %d个组吗?</string>
+   
+    <!-- Bookmarks -->
+    <string name="bookmarks_title">书签</string>
+    <string name="bookmarks_modify_title">修改书签</string>
+    <string name="bookmarks_modify_title_success">书签修改成功!</string>
+    <string name="bookmarks_modify_title_failed">书签修改失败!</string>
+    <string name="bookmarks_targetfiles_deleted">目标文件已经被删除!</string>
+    <string name="bookmarks_del">你确定要删除这%d个书签吗?</string>
+    <string name="bookmarks_del_success">书签删除成功</string>
+    <string name="bookmarks_del_failed">书签失败</string>
+    <string name="bookmarks_add_success">书签加入成功</string>
+    <string name="bookmarks_add_failed">书签加入失败!</string>
+    
+    
+    <!-- FileMgr -->
+    <string name="filemgr_title">文件浏览</string>
+    <string name="filemgr_default_zip_folder">解压缩的文件夹</string>
+    <string name="filemgr_extract_zip_success">提取成功</string>
+    <string name="filemgr_extract_zip_failed">提取失败!</string>
+    <string name="filemgr_compress_title">压缩</string>
+    <string name="filemgr_compress_success">压缩成功</string>
+    <string name="filemgr_compress_failed">压缩失败!</string>
+    <string name="filemgr_open_failed">对于此类型文件，本机没有安装相应的处理程序!</string>
+    <string name="filemgr_share_files_with">发送文件给朋友</string>
+    <string name="filemgr_delete_files">你确定想删除这%d个文件吗?</string>
+    <string name="filemgr_delete_files_success">文件删除成功</string>
+    <string name="filemgr_delete_files_failed">文件删除失败!</string>
+    <string name="filemgr_rename">重命名</string>
+    <string name="filemgr_rename_success">重命名成功</string>
+    <string name="filemgr_rename_failed">重命名失败!</string>
+    <string name="filemgr_details_folder_type">文件夹</string>
+    <string name="filemgr_details_file_type">文件</string>
+    <string name="filemgr_details_other_type">其他</string>
+    <string name="filemgr_details_hidden_type">隐藏</string>
+    <string name="filemgr_details_hidden_type_no">非隐藏文件</string>
+    <string name="filemgr_details_loading">正在计算....</string>
+    <string name="filemgr_new_folder">新建文件夹</string>
+    <string name="filemgr_new_folder_success">新建文件夹成功</string>
+    <string name="filemgr_new_folder_failed">新建文件夹失败!</string>
+    <string name="filemgr_folder_exist">文件夹已存在， 请换个名字</string>
+    <string name="filemgr_copy_success">文件拷贝成功</string>
+    <string name="filemgr_copy_failed">文件拷贝失败!</string>
+    <string name="filemgr_cut_success">文件剪切成功</string>
+    <string name="filemgr_cut_failed">剪贴失败</string>
+    <string name="filemgr_dialog_details_size">大小:</string>
+    <string name="filemgr_dialog_details_type">类型:</string>
+    <string name="filemgr_dialog_last_modified">最后更改日期:</string>
+    <string name="filemgr_dialog_hidden_files">隐藏文件 ?</string>
+    <string name="filemgr_dialog_permissions">权限:</string>
+    <string name="filemgr_dialog_wififtp">Ftp网络共享</string>
+    
+    <!-- FTP -->
+    <string name="ftp_start"> 启动   </string>
+    <string name="ftp_stop"> 停止   </string>
+    <string name="ftp_no_wifi">错误， 没有有效的wifi网络连接!</string>
+    <string name="ftp_was_stop">FTP服务已经停止</string>
+    <string name="storage_warning">没有SD卡! </string>
+    <string name="ftp_running">正在运行 </string>
+    <string name="ftp_notification_title">FTP</string>
+    <string name="ftp_notification_text">正在运行</string>
+    
+    <!-- Setting -->
+    <string name="setting_anonymouse_tip">匿名用户不能使用， 已经设置为默认用户名</string>
+    <string name="setting_port_wrong">端口有效值为1000到9999</string>
+    
+    <!-- Navigation -->
+    <string name="nav_myapps">我的应用</string>
+    <string name="nav_apks">备份的Apk</string>
+    <string name="nav_files">文件</string>
+    <string name="nav_sdcard">SD卡</string>
+    <string name="nav_bookmarks">书签</string>
+    <string name="nav_pictures">  图片</string>
+    <string name="nav_musics">  音乐</string>
+    <string name="nav_videos">  视频</string>
+    <string name="nav_downloads">  下载</string>
+    <string name="nav_about">  关于</string>
+    
+    <!-- Menus -->
+    <string name="menu_modify">修改</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_open">打开</string>
+    <string name="menu_uninstall">卸载</string>
+    <string name="menu_extract_apk">备份Apk文件</string>
+    <string name="menu_google_market">Google市场</string>
+    <string name="menu_leave_group">从改组释放</string>
+    <string name="menu_run">运行</string>
+    <string name="menu_join_group">加入组</string>
+    <string name="menu_back">返回</string>
+    <string name="menu_recommand">推荐</string>
+    <string name="menu_view_switch">列表/网格</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_new_group">新建组</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_rename">重命名</string>
+    <string name="menu_copy">拷贝</string>
+    <string name="menu_cut">剪切</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_compress">压缩</string>
+    <string name="menu_extract">解压</string>
+    <string name="menu_property">属性</string>
+    <string name="menu_add_bookmark">加入书签</string>
+    <string name="menu_add_shortcut">创建桌面快捷方式</string>
+    <string name="menu_new_folder">新建文件夹</string>
+    <string name="menu_paste">粘帖</string>
+    
+    <!-- Recommand apps -->
+    <string name="recommand_title">推荐的应用</string>
+    <string name="recommand_empty">无数据</string>
+</resources>

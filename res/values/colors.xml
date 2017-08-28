@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#ff363636</color>
+    <color name="holo_blue_dark">#0099cc</color>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <item type="color" name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</item>
+    <item type="color" name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</item>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <item type="color" name="abs__bright_foreground_inverse_holo_dark">@color/abs__bright_foreground_holo_light</item>
+    <item type="color" name="abs__bright_foreground_inverse_holo_light">@color/abs__bright_foreground_holo_dark</item>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+    <color name="title_text_color">#ff75c147</color>
+    <color name="atm_bg">#ff252525</color>
+    <color name="button_bg_selected">#ff33b5e5</color>
+    <color name="task_list_bg">#ff252525</color>
+    <color name="task_list_item_pressed">#ff666666</color>
+    <color name="task_list_item_selected">#ff6e9736</color>
+    <color name="split_action_bg">#ff555555</color>
+    <color name="split_action_pressed">#ff75c147</color>
+    <color name="split_action_split_bg">#ff6e6e6e</color>
+    <color name="split_action_text_color">#ffffffff</color>
+    <color name="addon_installed">#ffffffff</color>
+    <color name="addon_not_installed">#4cfffffe</color>
+    <color name="addon_list_bg">#ff464646</color>
+    <color name="navigation_item_press_bg">#ff898989</color>
+    <color name="diaphaneity_color">#00000000</color>
+    <color name="color_coloring_1">#ffffffff</color>
+    <color name="color_coloring_2">#7fffffff</color>
+    <color name="color_fade">#4cffffff</color>
+</resources>

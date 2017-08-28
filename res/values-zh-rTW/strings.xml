@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickFiles</string>
+    <string name="action_settings">設置</string>
+    <string name="action_about">關於</string>
+    <string name="action_about_content">作者ShyDog Ltd\r\n\n設計準則性能,簡潔,功能足夠\r\n\n點擊確定按鈕在谷歌市場支持我們,謝謝</string>
+    <string name="action_switch_viewmode">列表/網格</string>
+    <string name="action_exit_tip">再按一次退出</string>
+   
+    <!-- Setting -->
+    <string name="setting_title">設置</string>
+    <string name="setting_general">常規</string>
+    <string name="setting_view_mode">列表/網格</string>
+    <string name="setting_view_mode_list">列表視圖</string>
+    <string name="setting_view_mode_grid">網格視圖</string>
+    <string name="setting_files">文件</string>
+    <string name="setting_show_hidefiles">顯示隱藏文件</string>
+    <string name="setting_hide">不顯示</string>
+    <string name="setting_show">顯示所有文件</string>
+    <string name="setting_username">用戶名:</string>
+    <string name="setting_password">密碼:</string>
+    <string name="setting_port">端口:</string>
+   
+    <!-- AppMgr -->
+    <string name="appmgr_title">所有應用</string>
+    <string name="appmgr_newgroup_input_name">名稱:</string>
+    <string name="appmgr_newgroup_input_description">描述:</string>
+    <string name="appmgr_modify_group_title">修改組</string>
+    <string name="appmgr_new_group_title">新建組</string>
+    <string name="appmgr_modify_group_failed">目標組不存在,請刷新!</string>
+    <string name="appmgr_new_group_failed">組創建失敗!</string>
+    <string name="appmgr_no_group_found">還沒有組被創建!</string>
+    <string name="appmgr_choose_folder">所有組</string>
+    <string name="appmgr_join_group_failed">加入組失敗</string>
+    <string name="appmgr_extractapks_success">軟件備份成功,請到備份目錄下進行操作!</string>
+    <string name="appmgr_extractapks_failed">失敗,目標應用禁止了軟件文件的備份</string>
+    <string name="appmgr_leavegroup_success">離開組成功</string>
+    <string name="appmgr_leavegroup_failed">離開組失敗,如果刷新無用,請清除程序緩存後再試</string>
+    <string name="appmgr_run_app">此程序不包含一個可啟動項,例如服務</string>
+    <string name="appmgr_del_groups">你確定要刪除這為%d個組嗎？</string>
+   
+    <!-- Bookmarks -->
+    <string name="bookmarks_title">書籤</string>
+    <string name="bookmarks_modify_title">修改書籤</string>
+    <string name="bookmarks_modify_title_success">書籤修改成功!</string>
+    <string name="bookmarks_modify_title_failed">書籤修改失敗!</string>
+    <string name="bookmarks_targetfiles_deleted">目標文件已經被刪除!</string>
+    <string name="bookmarks_del">你確定要刪除這為%d個書籤嗎？</string>
+    <string name="bookmarks_del_success">書籤刪除成功</string>
+    <string name="bookmarks_del_failed">書籤失敗</string>
+    <string name="bookmarks_add_success">書籤加入成功</string>
+    <string name="bookmarks_add_failed">書籤加入失敗！</string>
+   
+   
+    <!-- FileMgr -->
+    <string name="filemgr_title">文件瀏覽</string>
+    <string name="filemgr_default_zip_folder">解壓縮的文件夾</string>
+    <string name="filemgr_extract_zip_success">提取成功</string>
+    <string name="filemgr_extract_zip_failed">提取失敗！</string>
+    <string name="filemgr_compress_title">壓縮</string>
+    <string name="filemgr_compress_success">壓縮成功</string>
+    <string name="filemgr_compress_failed">壓縮失敗！</string>
+    <string name="filemgr_open_failed">對於此類型文件，本機沒有安裝相應的處理程序！</string>
+    <string name="filemgr_share_files_with">發送文件給朋友</string>
+    <string name="filemgr_delete_files">你確定想刪除這%d個文件嗎？</string>
+    <string name="filemgr_delete_files_success">文件刪除成功</string>
+    <string name="filemgr_delete_files_failed">文件刪除失敗！</string>
+    <string name="filemgr_rename">重命名</string>
+    <string name="filemgr_rename_success">重命名成功</string>
+    <string name="filemgr_rename_failed">重命名失敗！</string>
+    <string name="filemgr_details_folder_type">文件夾</string>
+    <string name="filemgr_details_file_type">文件</string>
+    <string name="filemgr_details_other_type">其他</string>
+    <string name="filemgr_details_hidden_type">隱藏</string>
+    <string name="filemgr_details_hidden_type_no">非隱藏文件</string>
+    <string name="filemgr_details_loading">正在計算.... </string>
+    <string name="filemgr_new_folder">新建文件夾</string>
+    <string name="filemgr_new_folder_success">新建文件夾成功</string>
+    <string name="filemgr_new_folder_failed">新建文件夾失敗！</string>
+    <string name="filemgr_folder_exist">文件夾已存在，請換個名字</string>
+    <string name="filemgr_copy_success">文件拷貝成功</string>
+    <string name="filemgr_copy_failed">文件拷貝失敗！</string>
+    <string name="filemgr_cut_success">文件剪切成功</string>
+    <string name="filemgr_cut_failed">剪貼失敗</string>
+    <string name="filemgr_dialog_details_size">大小：</string>
+    <string name="filemgr_dialog_details_type">類型：</string>
+    <string name="filemgr_dialog_last_modified">最後更改日期：</string>
+    <string name="filemgr_dialog_hidden_files">隱藏文件？</string>
+    <string name="filemgr_dialog_permissions">權限：</string>
+    <string name="filemgr_dialog_wififtp">FTP網絡共享</string>
+   
+    <!-- FTP -->
+    <string name="ftp_start">啟動</string>
+    <string name="ftp_stop">停止</string>
+    <string name="ftp_no_wifi">錯誤，沒有有效的無線網絡連接！</string>
+    <string name="ftp_was_stop">的FTP服務已經停止</string>
+    <string name="storage_warning">沒有SD卡！</string>
+    <string name="ftp_running">正在運行</string>
+    <string name="ftp_notification_title">FTP</string>
+    <string name="ftp_notification_text">正在運行</string>
+   
+    <!-- 設置 -->
+    <string name="setting_anonymouse_tip">匿名用戶不能使用,已經設置為默認用戶名</string>
+    <string name="setting_port_wrong">端口有效值為1000到9999</string>
+   
+    <!-- 導航 -->
+    <string name="nav_myapps">我的應用</string>
+    <string name="nav_apks">備份的硬軟件</string>
+    <string name="nav_files">文件</string>
+    <string name="nav_sdcard">SD卡</string>
+    <string name="nav_bookmarks">書籤</string>
+    <string name="nav_pictures">圖片</string>
+    <string name="nav_musics">音樂</string>
+    <string name="nav_videos">視頻</string>
+    <string name="nav_downloads">下載</string>
+    <string name="nav_about">關於</string>
+   
+    <!-- 菜單 -->
+    <string name="menu_modify">修改</string>
+    <string name="menu_delete">刪除</string>
+    <string name="menu_open">打開</string>
+    <string name="menu_uninstall">卸載</string>
+    <string name="menu_extract_apk">備份硬軟件文件</string>
+    <string name="menu_google_market">谷歌市場</string>
+    <string name="menu_leave_group">從改組釋放</string>
+    <string name="menu_run">運行</string>
+    <string name="menu_join_group">加入組</string>
+    <string name="menu_back">返回</string>
+    <string name="menu_recommand">推薦</string>
+    <string name="menu_view_switch">列表/網格</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_new_group">新建組</string>
+    <string name="menu_setting">設置</string>
+    <string name="menu_rename">重命名</string>
+    <string name="menu_copy">拷貝</string>
+    <string name="menu_cut">剪切</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_compress">壓縮</string>
+    <string name="menu_extract">解壓</string>
+    <string name="menu_property">屬性</string>
+    <string name="menu_add_bookmark">加入書籤</string>
+    <string name="menu_add_shortcut">創建桌面快捷方式</string>
+    <string name="menu_new_folder">新建文件夾</string>
+    <string name="menu_paste">粘帖</string>
+   
+    <!--支持建議的應用程序 -->
+    <string name="recommand_title">推薦的應用</string>
+    <string name="recommand_empty">無數據</string>
+ 
+</resources>

@@ -1,0 +1,75 @@
+<LinearLayout android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+	<LinearLayout  android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	    
+	    <LinearLayout android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal" >
+	
+	        <ImageView
+	            android:id="@+id/imageView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ftp_wifi" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal" >
+	
+	        <TextView
+	            android:textSize="25sp"
+	            android:id="@+id/ftp_status"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:id="@+id/inmobi_ad_layout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal" >
+	
+	
+	    </LinearLayout>
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:id="@+id/ad_layout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal" >
+	
+	
+	    </LinearLayout>
+	    
+	    <LinearLayout android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal" >
+	
+	        <Button
+	            android:padding="5dp"
+	            android:id="@+id/ftp_control"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="31sp"
+	            android:minWidth="150dp"
+	            android:text="@string/ftp_start" />
+
+	    </LinearLayout>
+	    
+	    
+	</LinearLayout>
+    
+	
+</LinearLayout>

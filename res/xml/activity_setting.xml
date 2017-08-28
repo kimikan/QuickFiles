@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:title="@string/setting_title">  
+    <PreferenceCategory  
+        android:title="@string/setting_general">  
+        <CheckBoxPreference    
+            android:title="@string/setting_view_mode"   
+            android:summaryOn="@string/setting_view_mode_list"  
+            android:summaryOff="@string/setting_view_mode_grid"  
+            android:defaultValue="false" android:key="key_view_mode">  
+        </CheckBoxPreference>     
+    </PreferenceCategory>  
+    <PreferenceCategory 
+        android:title="@string/setting_files" >  
+        <CheckBoxPreference    
+            android:title="@string/setting_show_hidefiles"   
+            android:summaryOn="@string/setting_show"  
+            android:summaryOff="@string/setting_hide"  
+            android:defaultValue="false" android:key="key_show_hide">  
+        </CheckBoxPreference>   
+    </PreferenceCategory>  
+    <PreferenceCategory    
+        android:title="Ftp" >  
+        <EditTextPreference
+                android:title="@string/setting_username"
+                android:key="key_username"/>
+        <EditTextPreference
+                android:title="@string/setting_password"
+                android:key="key_password"/>
+        <EditTextPreference
+                android:title="@string/setting_port"
+                android:key="key_port"/>   
+    </PreferenceCategory>     
+</PreferenceScreen>  

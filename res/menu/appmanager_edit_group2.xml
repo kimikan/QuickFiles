@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+      
+      <item
+	      android:id="@+id/action_app_group_delete"
+	      android:orderInCategory="100"
+	      android:showAsAction="ifRoom"
+	      android:title="@string/menu_delete"
+	      android:icon="@drawable/appmgr_edit_delete"/>
+
+
+</menu>

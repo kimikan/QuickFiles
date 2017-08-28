@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+      
+    <item
+	      android:id="@+id/action_app_uninstall"
+	      android:orderInCategory="100"
+	      android:showAsAction="ifRoom"
+	      android:title="@string/menu_uninstall"
+	      android:icon="@drawable/appmgr_edit_delete"/>
+
+    <item
+	      android:id="@+id/action_app_extract"
+	      android:orderInCategory="100"
+	      android:showAsAction="ifRoom"
+	      android:title="@string/menu_extract_apk"
+	      android:icon="@drawable/appmgr_edit_extract"/>
+    
+    <item
+	      android:id="@+id/action_app_view_in_market"
+	      android:orderInCategory="100"
+	      android:showAsAction="ifRoom"
+	      android:title="@string/menu_google_market"
+	      android:icon="@drawable/appmgr_edit_market"/>
+    <item
+	      android:id="@+id/action_app_join_group"
+	      android:orderInCategory="100"
+	      android:showAsAction="ifRoom"
+	      android:title="@string/menu_join_group"
+	      android:icon="@drawable/appmgr_edit_group"/>
+      
+    <item
+	      android:id="@+id/action_app_run"
+	      android:orderInCategory="100"
+	      android:showAsAction="ifRoom"
+	      android:title="@string/menu_run"
+	      android:icon="@drawable/appmgr_edit_run"/>
+
+</menu>

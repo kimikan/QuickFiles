@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_copy"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_copy"
+        android:icon="@drawable/edit_copy"/>
+    
+    <item
+        android:id="@+id/action_cut"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_cut"
+        android:icon="@drawable/edit_cut"/>
+    
+	<item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_delete"
+        android:icon="@drawable/edit_delete"/>
+	
+     
+     <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_share"
+        android:icon="@drawable/edit_share"/>
+</menu>

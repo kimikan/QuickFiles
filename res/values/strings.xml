@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickFiles</string>
+    <string name="action_settings">Settings</string>
+	<string name="action_about">About</string>
+	<string name="action_about_content">Copyright 2014, FunnyDog.Inc \r\n\nThe design guideline is simple enough just enough quick\r\n\npress yes to support this software on Google Market</string>
+    <string name="action_switch_viewmode">List/Grid</string>
+    <string name="action_exit_tip">Push again to exit</string>
+    
+    <!-- Setting -->
+    <string name="setting_title">Setting</string>
+    <string name="setting_general">General</string>
+    <string name="setting_view_mode">List/Grid</string>
+    <string name="setting_view_mode_list">List View</string>
+    <string name="setting_view_mode_grid">Grid View</string>
+    <string name="setting_files">Files</string>
+    <string name="setting_show_hidefiles">Show hidden files</string>
+    <string name="setting_hide">Hide</string>
+    <string name="setting_show">Show all files</string>
+    <string name="setting_username">Username:</string>
+    <string name="setting_password">Password:</string>
+    <string name="setting_port">Port:</string>
+    
+    <!-- AppMgr -->
+    <string name="appmgr_title">Applications</string>
+    <string name="appmgr_newgroup_input_name">Name:</string>
+    <string name="appmgr_newgroup_input_description">Description:</string>
+    <string name="appmgr_modify_group_title">Modify group</string>
+    <string name="appmgr_new_group_title">New group</string>
+    <string name="appmgr_modify_group_failed">Target group was removed, Please refresh db!</string>
+    <string name="appmgr_new_group_failed">Group create failed, Please try later!</string>
+    <string name="appmgr_no_group_found">No any group created yet!</string>
+    <string name="appmgr_choose_folder">Groups</string>
+    <string name="appmgr_join_group_failed">Join group failed, Please try later!</string>
+    <string name="appmgr_extractapks_success">Apks extract success!</string>
+    <string name="appmgr_extractapks_failed">failed, target Apk disabled apk extracting</string>
+    <string name="appmgr_leavegroup_success">Leave group success!</string>
+    <string name="appmgr_leavegroup_failed">Failed, Database was corrupted. please clean your cache!</string>
+    <string name="appmgr_run_app">This application don not have a laucherable activity, maybe service</string>
+    <string name="appmgr_del_groups">Do you really want to delete these %d groups?</string>
+   
+    <!-- Bookmarks -->
+    <string name="bookmarks_title">Bookmarks</string>
+    <string name="bookmarks_modify_title">Modify bookmark</string>
+    <string name="bookmarks_modify_title_success">Bookmark modify success!</string>
+    <string name="bookmarks_modify_title_failed">Bookmark modify failed!</string>
+    <string name="bookmarks_targetfiles_deleted">Target files has been deleted!</string>
+    <string name="bookmarks_del">Do you really want to delete these %d bookmarks?</string>
+    <string name="bookmarks_del_success">Bookmarks delete success</string>
+    <string name="bookmarks_del_failed">Bookmarks delete failed,unknown error, please clean cache to reset</string>
+    <string name="bookmarks_add_success">Bookmark add success</string>
+    <string name="bookmarks_add_failed">Bookmark add failed!</string>
+    
+    
+    <!-- FileMgr -->
+    <string name="filemgr_title">File explorer</string>
+    <string name="filemgr_default_zip_folder">New zip folder</string>
+    <string name="filemgr_extract_zip_success">Extract success</string>
+    <string name="filemgr_extract_zip_failed">Extract failed!</string>
+    <string name="filemgr_compress_title">Commpress</string>
+    <string name="filemgr_compress_success">Commpress success</string>
+    <string name="filemgr_compress_failed">Compress failed!</string>
+    <string name="filemgr_open_failed">No related application installed to handle this type file!</string>
+    <string name="filemgr_share_files_with">Share files with</string>
+    <string name="filemgr_delete_files">Do you really want to delete these %d files?</string>
+    <string name="filemgr_delete_files_success">File delete success</string>
+    <string name="filemgr_delete_files_failed">File delete failed!</string>
+    <string name="filemgr_rename">Rename to</string>
+    <string name="filemgr_rename_success">Rename success</string>
+    <string name="filemgr_rename_failed">Rename failed!</string>
+    <string name="filemgr_details_folder_type">Folder</string>
+    <string name="filemgr_details_file_type">File</string>
+    <string name="filemgr_details_other_type">Other</string>
+    <string name="filemgr_details_hidden_type">Hidden</string>
+    <string name="filemgr_details_hidden_type_no">No</string>
+    <string name="filemgr_details_loading">loading....</string>
+    <string name="filemgr_new_folder">New folder</string>
+    <string name="filemgr_new_folder_success">New folder success</string>
+    <string name="filemgr_new_folder_failed">New folder failed!</string>
+    <string name="filemgr_folder_exist">Folder already exists, please try another name</string>
+    <string name="filemgr_copy_success">Copy files success</string>
+    <string name="filemgr_copy_failed">Copy files failed!</string>
+    <string name="filemgr_cut_success">Cut files success</string>
+    <string name="filemgr_cut_failed">Cut files failed!</string>
+    <string name="filemgr_dialog_details_size">Size:</string>
+    <string name="filemgr_dialog_details_type">Type:</string>
+    <string name="filemgr_dialog_last_modified">Last Modified:</string>
+    <string name="filemgr_dialog_hidden_files">Hidden files ?</string>
+    <string name="filemgr_dialog_permissions">Permissions:</string>
+    <string name="filemgr_dialog_wififtp">Wifi Ftp</string>
+    
+    <!-- FTP -->
+    <string name="ftp_start">Start</string>
+    <string name="ftp_stop">Stop</string>
+    <string name="ftp_no_wifi">Error, Please make sure you are in wifi environment!</string>
+    <string name="ftp_was_stop">Ftp Stopped</string>
+    <string name="storage_warning">No SDCard found! </string>
+    <string name="ftp_running">Ftp is running </string>
+    <string name="ftp_notification_title">FTP</string>
+    <string name="ftp_notification_text">Is running</string>
+    
+    <!-- Setting -->
+    <string name="setting_anonymouse_tip">Anonymous username not allowed, reset to default</string>
+    <string name="setting_port_wrong">Port should be from 1000 to 9999</string>
+    
+    <!-- Navigation -->
+    <string name="nav_myapps">My Apps</string>
+    <string name="nav_apks">Extracted apks</string>
+    <string name="nav_files">Files</string>
+    <string name="nav_sdcard">SD Card</string>
+    <string name="nav_bookmarks">Bookmarks</string>
+    <string name="nav_pictures">Pictures</string>
+    <string name="nav_musics">Music</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_about">About</string>
+    
+    <!-- Menus -->
+    <string name="menu_modify">modify</string>
+    <string name="menu_delete">delete</string>
+    <string name="menu_open">open</string>
+    <string name="menu_uninstall">uninstall</string>
+    <string name="menu_extract_apk">extract Apks</string>
+    <string name="menu_google_market">Google Market</string>
+    <string name="menu_leave_group">leave group</string>
+    <string name="menu_run">run</string>
+    <string name="menu_join_group">add to group</string>
+    <string name="menu_back">back</string>
+    <string name="menu_recommand">recommand</string>
+    <string name="menu_view_switch">list/grid</string>
+    <string name="menu_refresh">refresh</string>
+    <string name="menu_new_group">new group</string>
+    <string name="menu_setting">setting</string>
+    <string name="menu_rename">rename</string>
+    <string name="menu_copy">copy</string>
+    <string name="menu_cut">cut</string>
+    <string name="menu_share">share</string>
+    <string name="menu_compress">compress</string>
+    <string name="menu_extract">extract</string>
+    <string name="menu_property">property</string>
+    <string name="menu_add_bookmark">add bookmark</string>
+    <string name="menu_add_shortcut">add shortcut</string>
+    <string name="menu_new_folder">new folder</string>
+    <string name="menu_paste">paste</string>
+    
+    <!-- Recommand apps -->
+    <string name="recommand_title">Recommand Apps</string>
+    <string name="recommand_empty">No Apps</string>
+    
+</resources>
