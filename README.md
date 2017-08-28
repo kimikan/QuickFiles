@@ -5,7 +5,6 @@ Android file manager
 <html>
 
 <body>
-	<p>
   A android file manager!
 
   written in java 
@@ -13,6 +12,7 @@ Android file manager
 	
 	Demo1:<br/>
 	![image](https://github.com/kimikan/QuickFiles/blob/master/ScreenShots/device-2014-05-27-222011.png)
+	</p>
 	
 	Demo2:<br/>
 	![image](https://github.com/kimikan/QuickFiles/blob/master/ScreenShots/device-2014-05-27-222032.png)
