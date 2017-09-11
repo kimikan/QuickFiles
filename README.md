@@ -6,7 +6,7 @@ Android file manager
 
 <body>
   A android file manager!
-
+	<a href="https://github.com/kimikan/QuickFiles/blob/master/quickfiles.apk">download apk</a>
   written in java 
 	</p>
 	
